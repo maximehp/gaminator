@@ -102,7 +102,7 @@ schema:
     - { id: dex_mod, label: Dexterity Mod, formula: "mod(attr.dex)" }
     - { id: proficiency_bonus, label: Proficiency Bonus, formula: "lookup('prof_by_level', level)" }
     # Updated to generic helpers:
-    - { id: armor_class, label: Armor Class, formula: "10 + cap(dex_mod, 'ac.dex') + bonus('ac.shield')" }
+    - { id: armor_class, label: Armor Class, formula: "10 + cap(derived.dex_mod, 'ac.dex') + bonus('ac.shield')" }
     - { id: initiative, label: Initiative, formula: "dex_mod" }
     - { id: carry_capacity, label: Carry Capacity, formula: "attr.str * 15" }
 

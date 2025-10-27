@@ -1,0 +1,13 @@
+{
+  "id": "sample_dnd_5e_2024",
+  "name": "Sample Hero",
+  "systemId": "dnd_5e_2024",
+  "level": 1,
+  "attr": { "str": 16, "dex": 14, "con": 12 },
+  "res": {},
+  "prof": {},
+  "derived": {},
+  "inventory": { "mode": "weight_limit", "maxSlots": 36, "weightLimit": 0, "items": [], "carriedWeight": 0 },
+  "slots": {},
+  "tags": []
+}

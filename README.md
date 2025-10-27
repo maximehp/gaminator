@@ -3,7 +3,7 @@
 **Gaminator** is an open-source, browser-based **modular RPG character sheet engine**.  
 It loads complete game systems from human-readable YAML files, automatically builds dynamic character sheets, and (eventually) will let DMs and players connect for synchronized sessions.
 
-The design goal is *absurd flexibility* — any RPG (D&D, Pathfinder, WoW, or entirely homebrew) can define its own rules, stats, inventory logic, and UI layout through “packs”.
+The design goal is *absurd flexibility:* any RPG (D&D, Pathfinder, WoW, or entirely homebrew) can define its own rules, stats, inventory logic, and UI layout through “packs”.
 
 ---
 

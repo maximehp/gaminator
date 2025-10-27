@@ -11,7 +11,7 @@ const pack: LoadedPack = {
         resources: [],
         derived: [
             { id: "dex_mod", formula: "mod(attr.dex)" },
-            { id: "ac", formula: "10 + cap(dex_mod, 'ac.dex') + bonus('ac.shield')" }
+            { id: "ac", formula: "10 + cap(derived.dex_mod, 'ac.dex') + bonus('ac.shield')" }
         ],
         inventory: {
             mode: "weight_limit",

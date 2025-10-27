@@ -26,6 +26,9 @@ importers:
       nanoid:
         specifier: ^5.1.6
         version: 5.1.6
+      react:
+        specifier: ^19.2.0
+        version: 19.2.0
       uuid:
         specifier: ^13.0.0
         version: 13.0.0
@@ -898,6 +901,10 @@ packages:
 
   random-js@2.1.0:
     resolution: {integrity: sha512-CRUyWmnzmZBA7RZSVGq0xMqmgCyPPxbiKNLFA5ud7KenojVX2s7Gv+V7eB52beKTPGxWRnVZ7D/tCIgYJJ8vNQ==}
+
+  react@19.2.0:
+    resolution: {integrity: sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==}
+    engines: {node: '>=0.10.0'}
 
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
@@ -1857,6 +1864,8 @@ snapshots:
   queue-microtask@1.2.3: {}
 
   random-js@2.1.0: {}
+
+  react@19.2.0: {}
 
   resolve-from@4.0.0: {}
 
