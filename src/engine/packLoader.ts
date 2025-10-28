@@ -7,7 +7,7 @@ type AnyObj = Record<string, any>;
 // Vite bundles these YAML files at build time and gives us the raw text.
 const ALL_YAML: Record<string, string> = import.meta.glob(
     "/src/packs/builtin/**/*.{yaml,yml}",
-    { as: "raw", eager: true }
+    { query: "?raw", import: "default", eager: true }
 ) as Record<string, string>;
 
 function deepMerge(target: AnyObj, source: AnyObj): AnyObj {

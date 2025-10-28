@@ -1,7 +1,7 @@
 // Import any character JSON under /src/characters
 const ALL_CHARS: Record<string, string> = import.meta.glob(
     "/src/characters/**/*.json",
-    { as: "raw", eager: true }
+    { query: "?raw", import: "default", eager: true }
 ) as Record<string, string>;
 
 export type CharacterFile = {

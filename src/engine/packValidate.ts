@@ -89,7 +89,7 @@ const Rules = z.object({
     stackingPolicies: z.array(z.string()).optional(),
     formulas: Rec(z.string()).optional(),
     // lookup tables: tableName -> key -> value (number or string)
-    lookups: Rec(Rec(z.union([z.number(), z.string()]))).optional(),
+    lookups: Rec(Rec(z.number())).optional(),
 
     // Optional convenience tables that your actions layer can read
     // tag -> { key: NumberLike }
